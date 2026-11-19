@@ -35,4 +35,21 @@
         return $todo;
     }
 
+    function limpiarNombre($name){
+        $limpio=str_replace(" ","",trim($name));
+        return $limpio;
+    }
+    function convertirMinusculas($name){
+        $min=strtolower(limpiarNombre($name));
+        return $min;
+    }
+    function obtenerInstitucion($ints){
+        $ins=strtolower(substr($ints,0,2));
+        return $ins;
+    }
+    function generarUsuario($name,$inst,$year){
+        $todo= convertirMinusculas($name).obtenerInstitucion($inst).obtenerAnio($year);
+        return $todo;
+    }
+
 ?>

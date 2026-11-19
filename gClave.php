@@ -23,7 +23,6 @@
             text-align: center;
             position: relative;
             z-index: 10;
-            pointer-events: auto !important;
         }</style>
         <form method = "POST" action ="">
             <main class="todo">
@@ -39,17 +38,13 @@
                     </div>
                     <br>
                     </div>
-                </div>
             </main>
             <br><br>
             <button type = "submit" name = "calcular" style="width: 100px">Generar</button>
         </form>
-    </div>
 
     <?php
         require_once("funciones.php");
-        echo "<br><div class= 'linea'></div>";
-        echo "<br><div class='ex'>";
             if($_SERVER["REQUEST_METHOD"]==="POST" && isset($_POST["calcular"])){
                 $p1 = $_POST['num1'];
                 $p2 = $_POST['num2'];
@@ -59,5 +54,6 @@
             }
         echo "</div>";
     ?>
+    </div>
 </body>
 </html>
