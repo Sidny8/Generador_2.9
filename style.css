@@ -1,0 +1,102 @@
+:root{
+    --fuerte:#723923;
+    --claro:#e9b478;
+    --medio:#f7d198;
+    --extra:#9b4d20;
+}
+*{
+    margin: 0;
+    padding: 0;
+    color: var(--fuerte);
+}
+body{
+    background-color: var(--claro);
+    font-size: 23px;
+}
+.menu{
+    padding: 1% 2% 0.9% ;
+    text-align: right;
+}
+.bt{
+    font-size: 18px;
+    color: var(--claro);
+    background-color: var(--fuerte);
+    border: none;
+    padding: 5px;
+    border-radius: 9%;
+    text-decoration: none;
+}
+.btN{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: var(--claro);
+    background-color: var(--fuerte);
+    border: none;
+    padding: 15px 10px 15px 10px;
+    margin-left: 49%;
+    border-radius: 9%;
+    text-decoration: none;
+}
+.btC{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: var(--claro);
+    background-color: var(--fuerte);
+    border: none;
+    padding: 15px 10px 15px 10px;
+    border-radius: 9%;
+    text-decoration: none;
+}
+.bt:hover, button:hover{
+    background-color: var(--extra);
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    background-color: var(--medio);
+}
+.input-alto {
+    height: 15px;
+    padding: 8px;
+    font-size: 19px;
+    width: 120px;
+    border: var(--fuerte) solid;
+    background-color:var(--claro);
+    border-radius: 25%;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+.input-alto2 {
+    height: 15px;
+    padding: 8px;
+    font-size: 19px;
+    width: 150px;
+    border: var(--fuerte) solid;
+    background-color:var(--claro);
+    border-radius: 25%;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+.input-largo{
+    height: 15px;
+    padding: 8px;
+    font-size: 21px;
+    width: 420px;
+    border: var(--fuerte) solid;
+    background-color:var(--claro);
+    border-radius: 25%;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+.cnt{
+    margin-top: 2%;
+    margin-left: 47%;
+}
+.cnt{
+    margin-top: 2%;
+    margin-left: 20%;
+}
